@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Mesa College</string>
+    <string name="button_site">Website</string>
+    <string name="button_call">Call Now</string>
+    <string name="image_mesa">Representation of Mesa College</string>
+    <string name="text_mesa">Mesa College</string>
+</resources>

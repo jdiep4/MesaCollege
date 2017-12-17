@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mesakarejji</string>
+    <string name="button_site">U~ebusaito</string>
+    <string name="button_call">"Ima sugu denwa suru "</string>
+    <string name="image_mesa">"Mesa karejji no daihyō "</string>
+    <string name="text_mesa">Mesakarejji</string>
+</resources>

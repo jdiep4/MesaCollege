@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="edu.mesa.cisc.mesacollege.MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayoutMesa"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="16dp">
+
+        <TextView
+            android:id="@+id/textViewMesa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageMesa"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="22dp"
+            android:text="@string/text_mesa"
+            android:textSize="@dimen/text_small"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageMesa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:contentDescription="@string/image_mesa"
+            app:srcCompat="@drawable/students"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <Button
+            android:id="@+id/buttonMesa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textViewMesa"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="29dp"
+            android:background="@color/light_blue"
+            android:text="@string/button_site"
+            android:textSize="14sp"
+            android:textStyle="normal" />
+
+        <Button
+            android:id="@+id/buttonCall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/buttonMesa"
+            android:layout_alignStart="@+id/buttonMesa"
+            android:layout_below="@+id/buttonMesa"
+            android:layout_marginTop="14dp"
+            android:background="@color/light_blue"
+            android:text="@string/button_call"
+            android:textStyle="normal" />
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
